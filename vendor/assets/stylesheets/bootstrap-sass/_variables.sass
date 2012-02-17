@@ -53,10 +53,14 @@ $zindexModal: 1050
 // Input placeholder text color
 $placeholderText: $grayLight !default
 
+// HR border color
+$hrBorder: $grayLighter !default
+
 // Navbar
 $navbarHeight: 40px !default
 $navbarBackground: $grayDarker !default
 $navbarBackgroundHighlight: $grayDark !default
+$navbarLinkBackgroundHover: transparent !default
 
 $navbarText: $grayLight !default
 $navbarLinkColor: $grayLight !default
@@ -86,7 +90,7 @@ $infoBorder: darken(adjust-hue($infoBackground, -10), 7%) !default
 $gridColumns: 12 !default
 $gridColumnWidth: 60px !default
 $gridGutterWidth: 20px !default
-$gridRowWidth: $gridColumns * $gridColumnWidth + $gridGutterWidth * ($gridColumns - 1)
+$gridRowWidth: $gridColumns * $gridColumnWidth + $gridGutterWidth * ($gridColumns - 1) !default
 
 // Fluid grid
 $fluidGridColumnWidth: 6.383% !default
