@@ -4,6 +4,9 @@
 
 Enjoy.
 
+## Updating
+Updating your application to a new version of `bootstrap-sass`? See [our changelog](https://github.com/thomas-mcdonald/bootstrap-sass/blob/master/CHANGELOG.md), [Bootstrap's changelog](https://github.com/twitter/bootstrap/wiki/Changelog), and this [guide to updating to Bootstrap 2.0](http://twitter.github.com/bootstrap/upgrading.html)
+
 ## Usage
 
 ### Rails
@@ -11,7 +14,7 @@ Enjoy.
 In your Gemfile:
 
     gem 'sass-rails', '~> 3.1'
-    gem 'bootstrap-sass', '~> 2.0.0'
+    gem 'bootstrap-sass', '~> 2.0.1'
 
 **Note**: previous versions of bootstrap-sass automatically required sass-rails. This is no longer the case, and you will *need* to require it in your Gemfile.
 

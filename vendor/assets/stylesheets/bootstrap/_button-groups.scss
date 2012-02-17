@@ -118,15 +118,15 @@
   margin-left: 0;
 }
 .btn:hover .caret, .open.btn-group .caret {
-  @include opacity(100);
+  @include opacity(1);
 }
 
 
 // Account for other colors
-.btn-primary, .btn-danger, .btn-info, .btn-success {
+.btn-primary, .btn-danger, .btn-info, .btn-success, .btn-inverse {
   .caret {
     border-top-color: $white;
-    @include opacity(75);
+    @include opacity(0.75);
   }
 }
 
